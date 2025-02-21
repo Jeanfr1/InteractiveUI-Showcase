@@ -7,24 +7,24 @@ import { Link } from "react-router-dom"
 
 const exampleImages = [
   {
-    url: "public/lovable-uploads/88a87df4-b1aa-4d9e-9d04-b88ea22da205.png",
-    title: "Winter Mountains",
+    url: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    title: "Winter Mountains at Night",
   },
   {
-    url: "public/lovable-uploads/ecb5e6f5-4710-4b44-9f52-88bd8ad554b4.png",
-    title: "Red Square Moscow",
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+    title: "Dramatic Mountain Landscape",
   },
   {
-    url: "public/lovable-uploads/653c8673-629c-4ecb-a8a3-6ca0c69d2b49.png",
-    title: "Coastal Rocks",
+    url: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+    title: "Mountain Valley",
   },
   {
-    url: "public/lovable-uploads/f5a83d40-70ae-4e54-98f1-561d4fc49019.png",
-    title: "Beach View",
+    url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    title: "Tropical Beach",
   },
   {
-    url: "public/lovable-uploads/5bb95ba7-622c-4c32-a3f3-69de156dcd33.png",
-    title: "Coastal Landscape",
+    url: "https://images.unsplash.com/photo-1536048810607-3dc7f86981cb",
+    title: "Mountain Lake Reflection",
   },
 ]
 

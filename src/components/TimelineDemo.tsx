@@ -11,6 +11,18 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Still in France and planning for the next adventures
           </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+              alt="Paris"
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b"
+              alt="French Alps"
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
+            />
+          </div>
         </div>
       ),
     },
@@ -23,13 +35,13 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/src/assets/images/timeline/italy1.jpg"
-              alt="Pisa Tower"
+              src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+              alt="Cinque Terre"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="/src/assets/images/timeline/italy2.jpg"
-              alt="Cinque Terre"
+              src="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216"
+              alt="Florence"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
           </div>
@@ -45,13 +57,13 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1539020140153-e479b8c26819?auto=format&fit=crop&w=800&q=80"
-              alt="Morocco"
+              src="https://images.unsplash.com/photo-1489493887464-892be6d1daae"
+              alt="Morocco Desert"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1533551037358-c8f7182cdb79?auto=format&fit=crop&w=800&q=80"
-              alt="Ireland"
+              src="https://images.unsplash.com/photo-1590089415225-401ed6f9db8e"
+              alt="Cliffs of Moher, Ireland"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
           </div>
@@ -67,12 +79,12 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1560196332-b2a8464a2ac3?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1601224335115-9d5265aa1b4a"
               alt="Plitvice Lakes"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1524046960467-53444978e9d0?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1558614409-43d9c51c43cc"
               alt="Lyon"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
@@ -89,13 +101,13 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80"
-              alt="Paris"
+              src="https://images.unsplash.com/photo-1552832230-c0197dd311b5"
+              alt="Venice"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=800&q=80"
-              alt="Venice"
+              src="https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4"
+              alt="Barcelona"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
           </div>
@@ -109,6 +121,18 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
             🔄 Returned to Brazil for a short period
           </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325"
+              alt="Rio de Janeiro"
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1619546952812-520e98064a52"
+              alt="Iguazu Falls"
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
+            />
+          </div>
         </div>
       ),
     },
@@ -121,12 +145,12 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1562624475-96c2bc08fab6?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1513622470522-26c3c8a854bc"
               alt="Prague"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1599946347371-68eb71b16afc"
               alt="Berlin"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
@@ -143,12 +167,12 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017"
               alt="Amsterdam"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1533105079780-92b9be482077"
               alt="Santorini"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
@@ -165,12 +189,12 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1587559045816-8b0a54d4f55e"
               alt="Dublin"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1572555675827-128b94ee6159?auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1564959130747-897fb406b9af"
               alt="Ireland Landscape"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
