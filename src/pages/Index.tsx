@@ -7,8 +7,8 @@ const Index = () => {
   return (
     <div className="w-full">
       <Hero />
-      <LogoCarouselDemo />
       <TimelineDemo />
+      <LogoCarouselDemo />
     </div>
   )
 }
