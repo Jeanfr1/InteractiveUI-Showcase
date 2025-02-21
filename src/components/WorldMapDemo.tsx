@@ -8,12 +8,12 @@ export function WorldMapDemo() {
     <footer className="py-40 dark:bg-black/40 bg-black/5 backdrop-blur-sm w-full">
       <div className="max-w-7xl mx-auto text-center space-y-6">
         <h2 className="font-bold text-xl md:text-4xl">
-          <span className="text-[#22c55e] drop-shadow-[0_0_15px_rgba(34,197,94,0.4)]">Remote </span>
-          <span className="text-[#22c55e]/70">
+          <span className="text-black dark:text-white">Remote </span>
+          <span className="text-black/70 dark:text-white/70">
             {"Connectivity".split("").map((word, idx) => (
               <motion.span
                 key={idx}
-                className="inline-block drop-shadow-[0_0_10px_rgba(34,197,94,0.3)]"
+                className="inline-block"
                 initial={{ x: -10, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: idx * 0.04 }}
@@ -23,7 +23,7 @@ export function WorldMapDemo() {
             ))}
           </span>
         </h2>
-        <p className="text-sm md:text-lg text-[#22c55e]/60 max-w-2xl mx-auto drop-shadow-[0_0_8px_rgba(34,197,94,0.2)]">
+        <p className="text-sm md:text-lg text-black/60 dark:text-white/60 max-w-2xl mx-auto">
           Break free from traditional boundaries. Work from anywhere, at the
           comfort of your own studio apartment. Perfect for Nomads and
           Travellers.

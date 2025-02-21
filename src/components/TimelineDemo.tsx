@@ -183,10 +183,10 @@ export function TimelineDemo() {
   return (
     <div className="min-h-screen w-full bg-black/5 dark:bg-black/40 backdrop-blur-sm">
       <div className="pt-24 pb-12 text-center space-y-4">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#22c55e] drop-shadow-[0_0_15px_rgba(34,197,94,0.4)]">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black dark:text-white">
           Journey Through Time
         </h2>
-        <p className="text-lg md:text-xl text-[#22c55e]/80 drop-shadow-[0_0_10px_rgba(34,197,94,0.3)]">
+        <p className="text-lg md:text-xl text-black/60 dark:text-white/60">
           A digital nomad's adventure across the globe
         </p>
       </div>
