@@ -8,11 +8,11 @@ const socials = [
   },
   {
     name: "Website",
-    image: "https://link-hover-lndev.vercel.app/website.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Domain_name_browser_bar_www.svg/1200px-Domain_name_browser_bar_www.svg.png",
   },
   {
     name: "Gmail",
-    image: "https://link-hover-lndev.vercel.app/gmail.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png",
   },
 ]
 
