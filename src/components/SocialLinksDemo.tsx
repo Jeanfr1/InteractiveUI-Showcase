@@ -7,16 +7,12 @@ const socials = [
     image: "https://link-hover-lndev.vercel.app/instagram.png",
   },
   {
-    name: "LinkedIn",
-    image: "https://link-hover-lndev.vercel.app/linkedin.png",
+    name: "Website",
+    image: "https://link-hover-lndev.vercel.app/website.png",
   },
   {
-    name: "Spotify",
-    image: "https://link-hover-lndev.vercel.app/spotify.png",
-  },
-  {
-    name: "TikTok",
-    image: "https://link-hover-lndev.vercel.app/tiktok.png",
+    name: "Gmail",
+    image: "https://link-hover-lndev.vercel.app/gmail.png",
   },
 ]
 
