@@ -1,5 +1,7 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 
 const destinations = [
   {
@@ -38,6 +40,16 @@ const NextDestinations = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-black">
       <div className="container mx-auto px-4 py-24">
+        <div className="mb-16">
+          <Link
+            to="/"
+            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-[#22c55e]/10 text-[#22c55e] h-10 px-4 py-2 rounded-md"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Home
+          </Link>
+        </div>
+
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8">
           Next Destinations
         </h1>
