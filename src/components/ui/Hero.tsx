@@ -1,3 +1,4 @@
+
 "use client"
 
 import { motion } from "framer-motion"
@@ -161,7 +162,7 @@ function Hero() {
             }}
           >
             <Link
-              to="/docs"
+              to="/get-started"
               className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#22c55e] hover:bg-[#22c55e]/90 text-black h-10 px-4 py-2 rounded-md drop-shadow-[0_0_10px_rgba(34,197,94,0.3)]"
             >
               Get Started
@@ -177,10 +178,10 @@ function Hero() {
             }}
           >
             <Link
-              to="/docs"
+              to="/next-destinations"
               className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-[#22c55e]/30 bg-background hover:bg-[#22c55e]/10 text-[#22c55e] h-10 px-4 py-2 rounded-md drop-shadow-[0_0_10px_rgba(34,197,94,0.2)]"
             >
-              Documentation
+              Next Destinations
             </Link>
           </motion.div>
         </div>
