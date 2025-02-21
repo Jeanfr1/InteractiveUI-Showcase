@@ -2,6 +2,7 @@
 import { Hero } from "@/components/ui/Hero"
 import { TimelineDemo } from "@/components/TimelineDemo"
 import { LogoCarouselDemo } from "@/components/LogoCarouselDemo"
+import { ThreeDPhotoCarouselDemo } from "@/components/ThreeDPhotoCarouselDemo"
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <Hero />
       <TimelineDemo />
       <LogoCarouselDemo />
+      <ThreeDPhotoCarouselDemo />
     </div>
   )
 }
