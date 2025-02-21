@@ -1,7 +1,7 @@
 
 "use client"
 
-import { motion } from "@motionone/dom"
+import { motion } from "framer-motion"
 import { TextRotate } from "./text-rotate"
 import Floating, { FloatingElement } from "./parallax-floating"
 import { Link } from "react-router-dom"
