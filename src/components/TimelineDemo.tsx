@@ -23,12 +23,12 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1516186366443-0744a82bffe7?auto=format&fit=crop&w=800&q=80"
+              src="/src/assets/images/timeline/italy1.jpg"
               alt="Pisa Tower"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1541370976299-4d24ebbc9077?auto=format&fit=crop&w=800&q=80"
+              src="/src/assets/images/timeline/italy2.jpg"
               alt="Cinque Terre"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />

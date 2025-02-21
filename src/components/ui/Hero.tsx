@@ -6,25 +6,27 @@ import { TextRotate } from "./text-rotate"
 import Floating, { FloatingElement } from "./parallax-floating"
 import { Link } from "react-router-dom"
 
+// Update this array with your own images once you add them to the assets folder
 const exampleImages = [
   {
-    url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+    // Place your images in: src/assets/images/hero/image1.jpg
+    url: "/src/assets/images/hero/image1.jpg",
     title: "Technology",
   },
   {
-    url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    url: "/src/assets/images/hero/image2.jpg",
     title: "Development",
   },
   {
-    url: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    url: "/src/assets/images/hero/image3.jpg",
     title: "Coding",
   },
   {
-    url: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80",
+    url: "/src/assets/images/hero/image4.jpg",
     title: "Software",
   },
   {
-    url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
+    url: "/src/assets/images/hero/image5.jpg",
     title: "Innovation",
   },
 ]
