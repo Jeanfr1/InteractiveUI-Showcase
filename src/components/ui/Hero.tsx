@@ -111,8 +111,8 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.2, ease: "easeOut", delay: 0.3 }}
         >
-          <span>Make your </span>
-          <motion.span layout className="flex whitespace-pre">
+          <span className="text-black dark:text-white">Make your </span>
+          <motion.span layout className="flex whitespace-pre text-[#F2FCE2]">
             <motion.span
               layout
               className="flex whitespace-pre"
@@ -130,7 +130,7 @@ function Hero() {
                 "minimal",
                 "powerful",
               ]}
-              mainClassName="overflow-hidden pr-3 text-primary py-0 pb-2 md:pb-4 rounded-xl"
+              mainClassName="overflow-hidden pr-3 text-[#F2FCE2] py-0 pb-2 md:pb-4 rounded-xl"
               staggerDuration={0.03}
               staggerFrom="last"
               rotationInterval={3000}
@@ -139,7 +139,7 @@ function Hero() {
           </motion.span>
         </motion.h1>
         <motion.p
-          className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center pt-4 sm:pt-8 md:pt-10 lg:pt-12 text-muted-foreground"
+          className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center pt-4 sm:pt-8 md:pt-10 lg:pt-12 text-[#F2FCE2]"
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.2, ease: "easeOut", delay: 0.5 }}
