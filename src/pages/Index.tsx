@@ -4,6 +4,7 @@ import { TimelineDemo } from "@/components/TimelineDemo"
 import { LogoCarouselDemo } from "@/components/LogoCarouselDemo"
 import { ImageTrailDemo } from "@/components/ImageTrailDemo"
 import { WorldMapDemo } from "@/components/WorldMapDemo"
+import { SocialLinksDemo } from "@/components/SocialLinksDemo"
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <LogoCarouselDemo />
       <ImageTrailDemo />
       <WorldMapDemo />
+      <SocialLinksDemo />
     </div>
   )
 }
