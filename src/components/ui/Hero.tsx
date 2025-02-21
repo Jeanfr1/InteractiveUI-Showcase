@@ -1,4 +1,3 @@
-
 "use client"
 
 import { motion } from "framer-motion"
@@ -6,28 +5,26 @@ import { TextRotate } from "./text-rotate"
 import Floating, { FloatingElement } from "./parallax-floating"
 import { Link } from "react-router-dom"
 
-// Update this array with your own images once you add them to the assets folder
 const exampleImages = [
   {
-    // Place your images in: src/assets/images/hero/image1.jpg
-    url: "/src/assets/images/hero/image1.jpg",
-    title: "Technology",
+    url: "public/lovable-uploads/88a87df4-b1aa-4d9e-9d04-b88ea22da205.png",
+    title: "Winter Mountains",
   },
   {
-    url: "/src/assets/images/hero/image2.jpg",
-    title: "Development",
+    url: "public/lovable-uploads/ecb5e6f5-4710-4b44-9f52-88bd8ad554b4.png",
+    title: "Red Square Moscow",
   },
   {
-    url: "/src/assets/images/hero/image3.jpg",
-    title: "Coding",
+    url: "public/lovable-uploads/653c8673-629c-4ecb-a8a3-6ca0c69d2b49.png",
+    title: "Coastal Rocks",
   },
   {
-    url: "/src/assets/images/hero/image4.jpg",
-    title: "Software",
+    url: "public/lovable-uploads/f5a83d40-70ae-4e54-98f1-561d4fc49019.png",
+    title: "Beach View",
   },
   {
-    url: "/src/assets/images/hero/image5.jpg",
-    title: "Innovation",
+    url: "public/lovable-uploads/5bb95ba7-622c-4c32-a3f3-69de156dcd33.png",
+    title: "Coastal Landscape",
   },
 ]
 
