@@ -112,7 +112,10 @@ function Hero() {
           transition={{ duration: 0.2, ease: "easeOut", delay: 0.3 }}
         >
           <span className="text-black dark:text-white">Make your </span>
-          <motion.span layout className="flex whitespace-pre text-[#F2FCE2]">
+          <motion.span 
+            layout 
+            className="flex whitespace-pre text-[#4ade80] drop-shadow-[0_0_25px_rgba(74,222,128,0.5)]"
+          >
             <motion.span
               layout
               className="flex whitespace-pre"
@@ -130,7 +133,7 @@ function Hero() {
                 "minimal",
                 "powerful",
               ]}
-              mainClassName="overflow-hidden pr-3 text-[#F2FCE2] py-0 pb-2 md:pb-4 rounded-xl"
+              mainClassName="overflow-hidden pr-3 text-[#4ade80] drop-shadow-[0_0_25px_rgba(74,222,128,0.5)] py-0 pb-2 md:pb-4 rounded-xl"
               staggerDuration={0.03}
               staggerFrom="last"
               rotationInterval={3000}
@@ -139,7 +142,7 @@ function Hero() {
           </motion.span>
         </motion.h1>
         <motion.p
-          className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center pt-4 sm:pt-8 md:pt-10 lg:pt-12 text-[#F2FCE2]"
+          className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center pt-4 sm:pt-8 md:pt-10 lg:pt-12 text-[#4ade80] drop-shadow-[0_0_15px_rgba(74,222,128,0.4)]"
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.2, ease: "easeOut", delay: 0.5 }}
@@ -160,7 +163,7 @@ function Hero() {
           >
             <Link
               to="/docs"
-              className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-md"
+              className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#4ade80] hover:bg-[#4ade80]/90 text-black h-10 px-4 py-2 rounded-md drop-shadow-[0_0_10px_rgba(74,222,128,0.3)]"
             >
               Get Started
             </Link>
@@ -176,7 +179,7 @@ function Hero() {
           >
             <Link
               to="/docs"
-              className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-md"
+              className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-[#4ade80]/30 bg-background hover:bg-[#4ade80]/10 text-[#4ade80] h-10 px-4 py-2 rounded-md drop-shadow-[0_0_10px_rgba(74,222,128,0.2)]"
             >
               Documentation
             </Link>
