@@ -79,12 +79,12 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1601224335115-9d5265aa1b4a"
+              src="https://images.unsplash.com/photo-1545158535-c3f7168c28b6"
               alt="Plitvice Lakes"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1558614409-43d9c51c43cc"
+              src="https://images.unsplash.com/photo-1524396309943-e03f5249f002"
               alt="Lyon"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
@@ -189,7 +189,7 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1587559045816-8b0a54d4f55e"
+              src="https://images.unsplash.com/photo-1549918864-48ac978761a4"
               alt="Dublin"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
             />
