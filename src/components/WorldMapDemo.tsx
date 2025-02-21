@@ -1,4 +1,3 @@
-
 "use client";
 import { WorldMap } from "@/components/ui/world-map";
 import { motion } from "framer-motion";
@@ -8,9 +7,9 @@ export function WorldMapDemo() {
     <footer className="py-40 dark:bg-black/40 bg-black/5 backdrop-blur-sm w-full">
       <div className="max-w-7xl mx-auto text-center space-y-6">
         <h2 className="font-bold text-xl md:text-4xl">
-          <span className="text-black dark:text-white">Remote </span>
+          <span className="text-black dark:text-white">Global </span>
           <span className="text-black/70 dark:text-white/70">
-            {"Connectivity".split("").map((word, idx) => (
+            {"Adventures".split("").map((word, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"
@@ -24,9 +23,8 @@ export function WorldMapDemo() {
           </span>
         </h2>
         <p className="text-sm md:text-lg text-black/60 dark:text-white/60 max-w-2xl mx-auto">
-          Break free from traditional boundaries. Work from anywhere, at the
-          comfort of your own studio apartment. Perfect for Nomads and
-          Travellers.
+          Follow our journey across continents as we discover hidden gems, embrace diverse cultures, 
+          and share stories from every corner of the world.
         </p>
       </div>
       <WorldMap

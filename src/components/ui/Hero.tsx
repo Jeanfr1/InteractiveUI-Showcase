@@ -1,4 +1,3 @@
-
 "use client"
 
 import { motion } from "framer-motion"
@@ -111,7 +110,7 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.2, ease: "easeOut", delay: 0.3 }}
         >
-          <span className="text-black dark:text-white">Make your </span>
+          <span className="text-black dark:text-white">Explore the </span>
           <motion.span 
             layout 
             className="flex whitespace-pre text-[#22c55e] drop-shadow-[0_0_25px_rgba(34,197,94,0.5)]"
@@ -121,17 +120,17 @@ function Hero() {
               className="flex whitespace-pre"
               transition={{ type: "spring", damping: 30, stiffness: 400 }}
             >
-              website{" "}
+              world{" "}
             </motion.span>
             <TextRotate
               texts={[
-                "stunning",
-                "elegant",
-                "beautiful",
-                "innovative",
-                "modern",
-                "minimal",
-                "powerful",
+                "fearlessly",
+                "endlessly",
+                "mindfully",
+                "naturally",
+                "joyfully",
+                "freely",
+                "boldly",
               ]}
               mainClassName="overflow-hidden pr-3 text-[#22c55e] drop-shadow-[0_0_25px_rgba(34,197,94,0.5)] py-0 pb-2 md:pb-4 rounded-xl"
               staggerDuration={0.03}
@@ -147,8 +146,7 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.2, ease: "easeOut", delay: 0.5 }}
         >
-          Create beautiful and responsive web applications with our modern design
-          system.
+          Embark on unforgettable journeys and create lasting memories across the globe.
         </motion.p>
 
         <div className="flex flex-row justify-center space-x-4 items-center mt-10 sm:mt-16 md:mt-20 lg:mt-20">
