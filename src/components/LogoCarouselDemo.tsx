@@ -2,18 +2,25 @@
 import React from "react";
 import { GradientHeading } from "./ui/gradient-heading";
 import { LogoCarousel } from "./ui/logo-carousel";
-import { Airplay, Airbnb, Plane, Search, Booking, Google } from "lucide-react";
+import { 
+  Plane, 
+  Building2, 
+  Globe, 
+  Search, 
+  Hotel, 
+  MapPin 
+} from "lucide-react";
 
 const allLogos = [
   { 
     name: "Uber", 
     id: 1, 
-    img: (props) => <Airplay {...props} className="w-12 h-12 md:w-16 md:h-16 text-black dark:text-white" /> 
+    img: (props) => <MapPin {...props} className="w-12 h-12 md:w-16 md:h-16 text-black dark:text-white" /> 
   },
   { 
-    name: "Airbnb", 
+    name: "Travel Rentals", 
     id: 2, 
-    img: (props) => <Airbnb {...props} className="w-12 h-12 md:w-16 md:h-16 text-[#FF5A5F]" /> 
+    img: (props) => <Building2 {...props} className="w-12 h-12 md:w-16 md:h-16 text-[#FF5A5F]" /> 
   },
   { 
     name: "Air France", 
@@ -28,12 +35,12 @@ const allLogos = [
   { 
     name: "Booking.com", 
     id: 5, 
-    img: (props) => <Booking {...props} className="w-12 h-12 md:w-16 md:h-16 text-[#003580]" /> 
+    img: (props) => <Hotel {...props} className="w-12 h-12 md:w-16 md:h-16 text-[#003580]" /> 
   },
   { 
-    name: "Google", 
+    name: "Global Travel", 
     id: 6, 
-    img: (props) => <Google {...props} className="w-12 h-12 md:w-16 md:h-16 text-[#4285F4]" /> 
+    img: (props) => <Globe {...props} className="w-12 h-12 md:w-16 md:h-16 text-[#4285F4]" /> 
   },
 ];
 
