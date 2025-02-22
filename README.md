@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
+# Animated Hero Rotation
 
-## Project info
+![Project Showcase](https://source.unsplash.com/featured/?technology,code)
 
-**URL**: https://lovable.dev/projects/2ce3e509-5045-443e-b2f2-27b43ed64c5b
+Welcome to the Vite React Shadcn TS project! This project is a modern web application built with cutting-edge technologies to deliver a seamless user experience.
 
-## How can I edit this code?
+## Technologies Used
 
-There are several ways of editing your application.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web projects.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Radix UI**: A set of accessible, unstyled UI components for building high-quality design systems and web apps.
+- **Framer Motion**: A library for creating animations in React.
+- **React Router**: A library for routing in React applications.
+- **ESLint**: A tool for identifying and fixing problems in JavaScript code.
+- **PostCSS**: A tool for transforming CSS with JavaScript plugins.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2ce3e509-5045-443e-b2f2-27b43ed64c5b) and start prompting.
+- Responsive design
+- Interactive UI components
+- Fast and efficient build process
+- Modern animations and transitions
 
-Changes made via Lovable will be committed automatically to this repo.
+## Installation
 
-**Use your preferred IDE**
+To get started with the project, clone the repository and install the dependencies:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+git clone [repository-url]
+cd vite_react_shadcn_ts
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Usage
 
-Follow these steps:
+To run the project locally, use the following command:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+This will start the development server and open the project in your default browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contributing
 
-**Use GitHub Codespaces**
+We welcome contributions from the community! If you'd like to contribute, please fork the repository and submit a pull request.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
+This project is licensed under the MIT License.
 
-This project is built with .
+## Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2ce3e509-5045-443e-b2f2-27b43ed64c5b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+For any inquiries or feedback, please contact us at [your-email@example.com].
