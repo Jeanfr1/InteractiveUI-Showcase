@@ -2,7 +2,7 @@
 
 # 🎭 Animated Hero Rotation
 
-![Modern Web Animation](https://source.unsplash.com/1600x900/?3d,animation,interactive)
+![Modern Web Animation](https://images.unsplash.com/photo-1550745165-9bc0b252726f)
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
