@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🎭 Animated Hero Rotation
+# ✨ InteractiveUI Showcase
 
-![Modern Web Animation](https://images.unsplash.com/photo-1550745165-9bc0b252726f)
+![Interactive UI Components](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe)
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-*Elevate your web experience with stunning 3D animations and interactive components*
+*A modern collection of stunning UI components with fluid animations and interactive experiences*
 
 [Live Demo](https://your-demo-link.com) • [Documentation](#documentation) • [Installation](#installation)
 
